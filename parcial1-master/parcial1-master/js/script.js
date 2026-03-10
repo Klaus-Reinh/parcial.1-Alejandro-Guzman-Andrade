@@ -22,7 +22,7 @@ function agregarCarrito() {
 
 function enviarFormulario() {
 
-    let nombre = document.getElementById("nombre").value;
+    var  nombre = document.getElementById("nombre").value;
     var  correo = document.getElementById("correo").value;
     var  apellido = document.getElementById("apellido").value;
     var  telefono = document.getElementById("telefono").value;
@@ -35,10 +35,7 @@ function enviarFormulario() {
 
     console.log("Formulario enviado")
     
-    
+    alert("nombre:"+ nombre + apellido +" " +"correo:" + correo +"" + "telefono:" +telefono +"" +"direccion:"+ direccion + "" +"genero: " + genero)
 
 }
-function form() {
-    var form = document.getElementById("formContacto")
-    alert(form)
-}
+
