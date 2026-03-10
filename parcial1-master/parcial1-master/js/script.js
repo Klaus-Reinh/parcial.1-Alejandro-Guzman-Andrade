@@ -17,6 +17,7 @@ function agregarCarrito() {
 
     carrito++
     console.log("Productos en carrito: " + carrito)
+    alert(carrito)
 
 }
 
